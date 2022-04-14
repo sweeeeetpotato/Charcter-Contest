@@ -27,11 +27,13 @@ p.txt1 {
     top: 35%;
     left: 100px;
     transform: rotate(10deg);
+    animation: 텍스트1 2s linear infinite alternate;
 }
 p.txt2 {
     top: 35%;
     right: 100px;
     transform: rotate(-15deg);
+    animation: 텍스트2 1.5s linear infinite alternate;
 
 }
 
@@ -421,5 +423,21 @@ p.txt2 {
     }
     to {
         transform: translateX(-50%) scale(1.2);
+    }
+}
+@keyframes 텍스트1 {
+    from {
+        transform: rotate(10deg) scale(1);
+    }
+    to {
+        transform: rotate(10deg) scale(1.2);
+    }
+}
+@keyframes 텍스트2 {
+    from {
+        transform: rotate(-15deg) scale(1);
+    }
+    to {
+        transform: rotate(-15deg) scale(1.3);
     }
 }
