@@ -58,12 +58,12 @@ p.txt2 {
 .ear.left {
     transform: rotate(-40deg);
     left: 66px;
-    animation: 왼쪽벨 .2s linear infinite alternate;
+    animation: 왼쪽귀 .2s linear infinite alternate;
 }
 .ear.right {
     transform: rotate(40deg);
     right: 66px;
-    animation: 오른쪽벨 .2s linear 0.2s infinite alternate;
+    animation: 오른쪽귀 .2s linear 0.2s infinite alternate;
 }
 
 .ear_inner {
@@ -80,12 +80,12 @@ p.txt2 {
 .ear_inner.left{
     transform: rotate(-40deg);
     left: 73px;
-    animation: 왼쪽이너 .2s linear infinite alternate;
+    animation: 왼쪽귀 .2s linear infinite alternate;
 }
 .ear_inner.right{
     transform: rotate(40deg);
     right: 73px;
-    animation: 오른쪽이너 .2s linear .2s infinite alternate;
+    animation: 오른쪽귀 .2s linear .2s infinite alternate;
 }
 
 .ear_stick {
@@ -305,7 +305,7 @@ p.txt2 {
 }
 
 /* animaion */
-@keyframes 왼쪽벨 {
+@keyframes 왼쪽귀 {
     from {
         transform: rotate(-40deg);
     }
@@ -313,23 +313,7 @@ p.txt2 {
         transform: rotate(-35deg);
     }
 }
-@keyframes 왼쪽이너 {
-    from {
-        transform: rotate(-40deg);
-    }
-    to {
-        transform: rotate(-35deg);
-    }
-}
-@keyframes 오른쪽벨 {
-    from {
-        transform: rotate(40deg);
-    }
-    to {
-        transform: rotate(45deg);
-    }
-}
-@keyframes 오른쪽이너 {
+@keyframes 오른쪽귀 {
     from {
         transform: rotate(40deg);
     }
